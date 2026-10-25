@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="/HomeReminder/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="HomeReminder PL — Умный учёт косметики, химии и бумаги в доме / Inteligentny zapas domowy.">
+  <meta name="theme-color" content="#0F766E">
+
+  <!-- iOS & Android PWA meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="HomeReminder">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>HomeReminder PL</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    window.triggerHomeReminderWebPush = function(title, body) {
+      if (!("Notification" in window)) {
+        alert(title + "\n" + body);
+        return;
+      }
+      if (Notification.permission === "granted") {
+        new Notification(title, { body: body, icon: "icons/Icon-192.png" });
+      } else if (Notification.permission !== "denied") {
+        Notification.requestPermission().then(function (permission) {
+          if (permission === "granted") {
+            new Notification(title, { body: body, icon: "icons/Icon-192.png" });
+          } else {
+            alert(title + "\n" + body);
+          }
+        });
+      } else {
+        alert(title + "\n" + body);
+      }
+    };
+  </script>
+</head>
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

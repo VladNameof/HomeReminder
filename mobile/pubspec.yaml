@@ -1,0 +1,25 @@
+name: homereminder_mobile
+description: "HomeReminder — AI Cosmetics & Household Chemistry Tracker with Polish Stores (Rossmann, Hebe, Allegro, Ekodrogeria) & Push Reminders."
+publish_to: "none"
+version: 0.2.0+2
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  intl: ^0.19.0
+  shared_preferences: ^2.3.2
+  url_launcher: ^6.3.0
+  flutter_local_notifications: ^17.2.3
+  timezone: ^0.9.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
