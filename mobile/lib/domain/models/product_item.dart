@@ -57,34 +57,53 @@ class CustomStoreConfig {
 
   String buildSearchUrl(String encodedQuery) {
     final tpl = searchUrlTemplate.trim();
-    if (tpl.contains('{query}')) {
-      return tpl.replaceAll('{query}', encodedQuery);
+    if (tpl.isEmpty) return 'https://www.google.pl';
+
+    final withScheme = tpl.startsWith('http://') || tpl.startsWith('https://')
+        ? tpl
+        : 'https://$tpl';
+
+    // 1. If explicit {query} placeholder is present, substitute it
+    if (withScheme.contains('{query}')) {
+      return withScheme.replaceAll('{query}', encodedQuery);
     }
-    // Smart auto-detection for common domains if user only pasted domain URL
-    final lower = tpl.toLowerCase();
-    var base = tpl.startsWith('http') ? tpl : 'https://$tpl';
-    if (base.endsWith('/')) {
-      base = base.substring(0, base.length - 1);
+
+    final lower = withScheme.toLowerCase();
+    var base = withScheme.endsWith('/')
+        ? withScheme.substring(0, withScheme.length - 1)
+        : withScheme;
+
+    // 2. Known Polish stores with verified search endpoints
+    if (lower.contains('rossmann.pl') && !lower.contains('/szukaj')) {
+      return 'https://www.rossmann.pl/szukaj?Search=$encodedQuery';
     }
-    if (lower.contains('notino.pl')) {
-      return '$base/search.asp?exps=$encodedQuery';
+    if (lower.contains('hebe.pl') && !lower.contains('/search')) {
+      return 'https://www.hebe.pl/search?q=$encodedQuery';
     }
-    if (lower.contains('ceneo.pl')) {
-      return '$base/;szukaj-$encodedQuery';
+    if (lower.contains('allegro.pl') && !lower.contains('/listing')) {
+      return 'https://allegro.pl/listing?string=$encodedQuery';
     }
-    if (lower.contains('superpharm.pl')) {
-      return '$base/catalogsearch/result/?q=$encodedQuery';
+    if (lower.contains('ekodrogeria.pl') && !lower.contains('/s?q=')) {
+      return 'https://ekodrogeria.pl/s?q=$encodedQuery';
     }
-    if (lower.contains('douglas.pl')) {
-      return '$base/pl/search?q=$encodedQuery';
+    if (lower.contains('notino.pl') && !lower.contains('search.asp')) {
+      return 'https://www.notino.pl/search.asp?exps=$encodedQuery';
     }
-    if (lower.contains('makeup.pl')) {
-      return '$base/search/?q=$encodedQuery';
+    if (lower.contains('ceneo.pl') && !lower.contains('szukaj-')) {
+      return 'https://www.ceneo.pl/;szukaj-$encodedQuery';
     }
-    if (base.contains('?')) {
-      return '$base$encodedQuery';
+    if (lower.contains('superpharm.pl') && !lower.contains('catalogsearch')) {
+      return 'https://www.superpharm.pl/catalogsearch/result/?q=$encodedQuery';
     }
-    return '$base/search?q=$encodedQuery';
+    if (lower.contains('douglas.pl') && !lower.contains('/search')) {
+      return 'https://www.douglas.pl/pl/search?q=$encodedQuery';
+    }
+    if (lower.contains('makeup.pl') && !lower.contains('/search')) {
+      return 'https://makeup.pl/search/?q=$encodedQuery';
+    }
+
+    // 3. For any custom store URL entered by the user: open the exact URL they entered without inventing a 404 path!
+    return withScheme;
   }
 
   factory CustomStoreConfig.fromJson(Map<String, dynamic> json) {

@@ -772,7 +772,11 @@ class _ProductCard extends StatelessWidget {
                       style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w700),
                     ),
                     onPressed: () async {
-                      final uri = Uri.parse(item.customProductUrl!);
+                      final raw = item.customProductUrl!.trim();
+                      final fixedUrl = raw.startsWith('http://') || raw.startsWith('https://')
+                          ? raw
+                          : 'https://$raw';
+                      final uri = Uri.parse(fixedUrl);
                       await launchUrl(uri, mode: LaunchMode.externalApplication);
                     },
                   ),
@@ -797,7 +801,11 @@ class _ProductCard extends StatelessWidget {
                       ),
                     ),
                     onPressed: () async {
-                      final uri = Uri.parse(offer.searchUrl);
+                      final raw = offer.searchUrl.trim();
+                      final fixedUrl = raw.startsWith('http://') || raw.startsWith('https://')
+                          ? raw
+                          : 'https://$raw';
+                      final uri = Uri.parse(fixedUrl);
                       await launchUrl(uri, mode: LaunchMode.externalApplication);
                     },
                   );

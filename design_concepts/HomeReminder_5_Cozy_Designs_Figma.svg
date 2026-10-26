@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2040" height="760" viewBox="0 0 2040 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Canvas for Figma -->
+  <rect width="2040" height="760" rx="24" fill="#1E1E1E"/>
+  <text x="40" y="42" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">HomeReminder — 5 Cozy Redesign Concepts (Figma Editable Vector Artboards)</text>
+
+  <!-- ========================================================= -->
+  <!-- ARTBOARD 1: NORDIC LINEN & SAGE                           -->
+  <!-- ========================================================= -->
+  <g id="01_Nordic_Linen_Sage" transform="translate(40, 64)">
+    <rect x="0" y="0" width="360" height="660" rx="32" fill="#FAF6F0" stroke="#E6DFD3" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect x="20" y="22" width="38" height="38" rx="12" fill="#5F7A61"/>
+    <text x="39" y="47" font-family="Inter, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#FFFFFF">🌿</text>
+    <text x="70" y="37" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#78756E">Концепт #1 • Zara Home Vibe</text>
+    <text x="70" y="54" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800" fill="#2C302E">Nordic Linen &amp; Sage</text>
+    <line x1="0" y1="74" x2="360" y2="74" stroke="#E6DFD3" stroke-width="1"/>
+
+    <!-- Forecast Banner -->
+    <rect x="18" y="88" width="324" height="62" rx="22" fill="#F2ECE1" stroke="#E6DFD3" stroke-width="1"/>
+    <text x="34" y="114" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#5F7A61">✨ Прогноз домашнего уюта</text>
+    <text x="34" y="134" font-family="Inter, Arial, sans-serif" font-size="12" fill="#2C302E">На полочке 12 средств • 2 скоро закончатся</text>
+
+    <!-- Room Pills -->
+    <rect x="18" y="164" width="64" height="28" rx="14" fill="#5F7A61"/>
+    <text x="50" y="182" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#FFFFFF">Все</text>
+    <rect x="90" y="164" width="96" height="28" rx="14" fill="#FFFFFF" stroke="#E6DFD3" stroke-width="1"/>
+    <text x="138" y="182" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#78756E">🛁 Ванная</text>
+    <rect x="194" y="164" width="92" height="28" rx="14" fill="#FFFFFF" stroke="#E6DFD3" stroke-width="1"/>
+    <text x="240" y="182" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#78756E">🍽️ Кухня</text>
+
+    <!-- Card 1: CeraVe -->
+    <rect x="18" y="206" width="324" height="128" rx="22" fill="#FFFFFF" stroke="#E6DFD3" stroke-width="1.5"/>
+    <rect x="34" y="222" width="40" height="40" rx="12" fill="#FCEEE9"/>
+    <text x="54" y="248" font-family="Inter, Arial, sans-serif" font-size="18" text-anchor="middle">🧴</text>
+    <text x="86" y="237" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#78756E">🛁 Ванная • 473 мл</text>
+    <text x="86" y="256" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#2C302E">CeraVe Увлажняющий гель</text>
+    <text x="34" y="284" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#D97757">🍂 Хватит ещё на ~4 дня</text>
+    <text x="326" y="284" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="end" fill="#2C302E">14%</text>
+    <rect x="34" y="292" width="292" height="8" rx="4" fill="#F2ECE1"/>
+    <rect x="34" y="292" width="48" height="8" rx="4" fill="#D97757"/>
+    <text x="34" y="320" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#78756E">🏷️ Лучшая цена в Hebe: 42,99 zł</text>
+
+    <!-- Card 2: Finish -->
+    <rect x="18" y="346" width="324" height="128" rx="22" fill="#FFFFFF" stroke="#E6DFD3" stroke-width="1.5"/>
+    <rect x="34" y="362" width="40" height="40" rx="12" fill="#F2ECE1"/>
+    <text x="54" y="388" font-family="Inter, Arial, sans-serif" font-size="18" text-anchor="middle">✨</text>
+    <text x="86" y="377" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#78756E">🍽️ Кухня • 60 шт</text>
+    <text x="86" y="396" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#2C302E">Finish Ultimate Таблетки</text>
+    <text x="34" y="424" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#78756E">🌿 Запас на ~18 дней</text>
+    <text x="326" y="424" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="end" fill="#2C302E">45%</text>
+    <rect x="34" y="432" width="292" height="8" rx="4" fill="#F2ECE1"/>
+    <rect x="34" y="432" width="132" height="8" rx="4" fill="#5F7A61"/>
+    <text x="34" y="460" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#78756E">🏷️ Лучшая цена на Allegro: 49,90 zł</text>
+
+    <!-- Card 3: Eco Laundry -->
+    <rect x="18" y="486" width="324" height="100" rx="22" fill="#FFFFFF" stroke="#E6DFD3" stroke-width="1.5"/>
+    <rect x="34" y="502" width="40" height="40" rx="12" fill="#F2ECE1"/>
+    <text x="54" y="528" font-family="Inter, Arial, sans-serif" font-size="18" text-anchor="middle">🌿</text>
+    <text x="86" y="517" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#78756E">🧺 Прачечная • 1500 мл</text>
+    <text x="86" y="536" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#2C302E">Эко-гель Лаванда</text>
+    <rect x="34" y="558" width="292" height="8" rx="4" fill="#F2ECE1"/>
+    <rect x="34" y="558" width="228" height="8" rx="4" fill="#5F7A61"/>
+
+    <!-- Bottom Nav -->
+    <rect x="0" y="602" width="360" height="58" fill="#FFFFFF"/>
+    <line x1="0" y1="602" x2="360" y2="602" stroke="#E6DFD3" stroke-width="1"/>
+    <text x="64" y="635" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#5F7A61">🧴 Полочка</text>
+    <rect x="130" y="614" width="100" height="34" rx="17" fill="#5F7A61"/>
+    <text x="180" y="635" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#FFFFFF">+ Добавить</text>
+    <text x="296" y="635" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#78756E">🛍️ Цены PL</text>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- ARTBOARD 2: BOTANICAL APOTHECARY                          -->
+  <!-- ========================================================= -->
+  <g id="02_Botanical_Apothecary" transform="translate(440, 64)">
+    <rect x="0" y="0" width="360" height="660" rx="32" fill="#F4EFE6" stroke="#D8CEBE" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect x="20" y="22" width="38" height="38" rx="10" fill="#8C583A"/>
+    <text x="39" y="47" font-family="Inter, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#FFFDF9">🏺</text>
+    <text x="70" y="37" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#7A7067">Концепт #2 • Aesop Craft Vibe</text>
+    <text x="70" y="54" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#2B2623">Botanical Apothecary</text>
+    <line x1="0" y1="74" x2="360" y2="74" stroke="#D8CEBE" stroke-width="1"/>
+
+    <!-- Forecast Banner -->
+    <rect x="18" y="88" width="324" height="62" rx="12" fill="#EAE2D3" stroke="#D8CEBE" stroke-width="1"/>
+    <text x="34" y="114" font-family="Georgia, serif" font-size="12" font-weight="700" fill="#8C583A">✨ Домашний журнал запасов</text>
+    <text x="34" y="134" font-family="Inter, Arial, sans-serif" font-size="12" fill="#2B2623">На полочке 12 средств • 2 скоро закончатся</text>
+
+    <!-- Room Pills -->
+    <rect x="18" y="164" width="64" height="28" rx="8" fill="#8C583A"/>
+    <text x="50" y="182" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#FFFDF9">Все</text>
+    <rect x="90" y="164" width="96" height="28" rx="8" fill="#FBF8F3" stroke="#D8CEBE" stroke-width="1"/>
+    <text x="138" y="182" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#7A7067">🛁 Ванная</text>
+    <rect x="194" y="164" width="92" height="28" rx="8" fill="#FBF8F3" stroke="#D8CEBE" stroke-width="1"/>
+    <text x="240" y="182" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#7A7067">🍽️ Кухня</text>
+
+    <!-- Card 1: CeraVe -->
+    <rect x="18" y="206" width="324" height="128" rx="12" fill="#FBF8F3" stroke="#D8CEBE" stroke-width="1.5"/>
+    <rect x="34" y="222" width="40" height="40" rx="8" fill="#F5E4DC"/>
+    <text x="54" y="248" font-family="Inter, Arial, sans-serif" font-size="18" text-anchor="middle">🧴</text>
+    <text x="86" y="237" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#7A7067">🛁 Ванная • Партия 473 мл</text>
+    <text x="86" y="256" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#2B2623">CeraVe Увлажняющий гель</text>
+    <text x="34" y="284" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#B85D3B">🍂 Хватит ещё на ~4 дня</text>
+    <text x="326" y="284" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="end" fill="#2B2623">14%</text>
+    <rect x="34" y="292" width="292" height="8" rx="2" fill="#EAE2D3"/>
+    <rect x="34" y="292" width="48" height="8" rx="2" fill="#B85D3B"/>
+    <text x="34" y="320" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#7A7067">🏷️ Лучшая цена в Hebe: 42,99 zł</text>
+
+    <!-- Card 2: Finish -->
+    <rect x="18" y="346" width="324" height="128" rx="12" fill="#FBF8F3" stroke="#D8CEBE" stroke-width="1.5"/>
+    <rect x="34" y="362" width="40" height="40" rx="8" fill="#EAE2D3"/>
+    <text x="54" y="388" font-family="Inter, Arial, sans-serif" font-size="18" text-anchor="middle">✨</text>
+    <text x="86" y="377" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#7A7067">🍽️ Кухня • 60 шт</text>
+    <text x="86" y="396" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#2B2623">Finish Ultimate Таблетки</text>
+    <text x="34" y="424" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#7A7067">🌿 Запас на ~18 дней</text>
+    <text x="326" y="424" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="end" fill="#2B2623">45%</text>
+    <rect x="34" y="432" width="292" height="8" rx="2" fill="#EAE2D3"/>
+    <rect x="34" y="432" width="132" height="8" rx="2" fill="#8C583A"/>
+    <text x="34" y="460" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#7A7067">🏷️ Лучшая цена на Allegro: 49,90 zł</text>
+
+    <!-- Card 3: Eco Laundry -->
+    <rect x="18" y="486" width="324" height="100" rx="12" fill="#FBF8F3" stroke="#D8CEBE" stroke-width="1.5"/>
+    <rect x="34" y="502" width="40" height="40" rx="8" fill="#EAE2D3"/>
+    <text x="54" y="528" font-family="Inter, Arial, sans-serif" font-size="18" text-anchor="middle">🌿</text>
+    <text x="86" y="517" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#7A7067">🧺 Прачечная • 1500 мл</text>
+    <text x="86" y="536" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#2B2623">Эко-гель Лаванда</text>
+    <rect x="34" y="558" width="292" height="8" rx="2" fill="#EAE2D3"/>
+    <rect x="34" y="558" width="228" height="8" rx="2" fill="#8C583A"/>
+
+    <!-- Bottom Nav -->
+    <rect x="0" y="602" width="360" height="58" fill="#FBF8F3"/>
+    <line x1="0" y1="602" x2="360" y2="602" stroke="#D8CEBE" stroke-width="1"/>
+    <text x="64" y="635" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#8C583A">🧴 Полочка</text>
+    <rect x="130" y="614" width="100" height="34" rx="10" fill="#8C583A"/>
+    <text x="180" y="635" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#FFFDF9">+ Добавить</text>
+    <text x="296" y="635" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#7A7067">🛍️ Цены PL</text>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- ARTBOARD 3: PEACH BUBBLE SPA                              -->
+  <!-- ========================================================= -->
+  <g id="03_Peach_Bubble_Spa" transform="translate(840, 64)">
+    <rect x="0" y="0" width="360" height="660" rx="32" fill="#FFF8F5" stroke="#F7E1D7" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect x="20" y="22" width="38" height="38" rx="16" fill="#E07A5F"/>
+    <text x="39" y="47" font-family="Inter, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#FFFFFF">🫧</text>
+    <text x="70" y="37" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#8C7A75">Концепт #3 • Soft Care Vibe</text>
+    <text x="70" y="54" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800" fill="#362B28">Peach Bubble Spa</text>
+    <line x1="0" y1="74" x2="360" y2="74" stroke="#F7E1D7" stroke-width="1"/>
+
+    <!-- Forecast Banner -->
+    <rect x="18" y="88" width="324" height="62" rx="26" fill="#FDECE6" stroke="#F7E1D7" stroke-width="1"/>
+    <text x="34" y="114" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#E07A5F">✨ Утренний бьюти-ритуал</text>
+    <text x="34" y="134" font-family="Inter, Arial, sans-serif" font-size="12" fill="#362B28">Любимые баночки под присмотром</text>
+
+    <!-- Room Pills -->
+    <rect x="18" y="164" width="64" height="28" rx="14" fill="#E07A5F"/>
+    <text x="50" y="182" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#FFFFFF">Все</text>
+    <rect x="90" y="164" width="96" height="28" rx="14" fill="#FFFFFF" stroke="#F7E1D7" stroke-width="1"/>
+    <text x="138" y="182" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#8C7A75">🛁 Ванная</text>
+    <rect x="194" y="164" width="92" height="28" rx="14" fill="#FFFFFF" stroke="#F7E1D7" stroke-width="1"/>
+    <text x="240" y="182" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#8C7A75">🍽️ Кухня</text>
+
+    <!-- Card 1: CeraVe -->
+    <rect x="18" y="206" width="324" height="128" rx="26" fill="#FFFFFF" stroke="#F7E1D7" stroke-width="1.5"/>
+    <rect x="34" y="222" width="40" height="40" rx="16" fill="#FCE8EE"/>
+    <text x="54" y="248" font-family="Inter, Arial, sans-serif" font-size="18" text-anchor="middle">🧴</text>
+    <text x="86" y="237" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#8C7A75">🛁 Ванная • 473 мл</text>
+    <text x="86" y="256" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#362B28">CeraVe Увлажняющий гель</text>
+    <text x="34" y="284" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#C95B76">🌸 Хватит ещё на ~4 дня</text>
+    <text x="326" y="284" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="end" fill="#362B28">14%</text>
+    <rect x="34" y="292" width="292" height="8" rx="4" fill="#FDECE6"/>
+    <rect x="34" y="292" width="48" height="8" rx="4" fill="#C95B76"/>
+    <text x="34" y="320" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#8C7A75">🏷️ Лучшая цена в Hebe: 42,99 zł</text>
+
+    <!-- Card 2: Finish -->
+    <rect x="18" y="346" width="324" height="128" rx="26" fill="#FFFFFF" stroke="#F7E1D7" stroke-width="1.5"/>
+    <rect x="34" y="362" width="40" height="40" rx="16" fill="#FDECE6"/>
+    <text x="54" y="388" font-family="Inter, Arial, sans-serif" font-size="18" text-anchor="middle">✨</text>
+    <text x="86" y="377" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#8C7A75">🍽️ Кухня • 60 шт</text>
+    <text x="86" y="396" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#362B28">Finish Ultimate Таблетки</text>
+    <text x="34" y="424" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#8C7A75">🫧 Запас на ~18 дней</text>
+    <text x="326" y="424" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="end" fill="#362B28">45%</text>
+    <rect x="34" y="432" width="292" height="8" rx="4" fill="#FDECE6"/>
+    <rect x="34" y="432" width="132" height="8" rx="4" fill="#E07A5F"/>
+    <text x="34" y="460" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#8C7A75">🏷️ Лучшая цена на Allegro: 49,90 zł</text>
+
+    <!-- Card 3: Eco Laundry -->
+    <rect x="18" y="486" width="324" height="100" rx="26" fill="#FFFFFF" stroke="#F7E1D7" stroke-width="1.5"/>
+    <rect x="34" y="502" width="40" height="40" rx="16" fill="#FDECE6"/>
+    <text x="54" y="528" font-family="Inter, Arial, sans-serif" font-size="18" text-anchor="middle">🌿</text>
+    <text x="86" y="517" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#8C7A75">🧺 Прачечная • 1500 мл</text>
+    <text x="86" y="536" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#362B28">Эко-гель Лаванда</text>
+    <rect x="34" y="558" width="292" height="8" rx="4" fill="#FDECE6"/>
+    <rect x="34" y="558" width="228" height="8" rx="4" fill="#E07A5F"/>
+
+    <!-- Bottom Nav -->
+    <rect x="0" y="602" width="360" height="58" fill="#FFFFFF"/>
+    <line x1="0" y1="602" x2="360" y2="602" stroke="#F7E1D7" stroke-width="1"/>
+    <text x="64" y="635" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#E07A5F">🧴 Полочка</text>
+    <rect x="130" y="614" width="100" height="34" rx="17" fill="#E07A5F"/>
+    <text x="180" y="635" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#FFFFFF">+ Добавить</text>
+    <text x="296" y="635" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#8C7A75">🛍️ Цены PL</text>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- ARTBOARD 4: JAPANDI WOOD & CERAMIC                        -->
+  <!-- ========================================================= -->
+  <g id="04_Japandi_Wood_Shelf" transform="translate(1240, 64)">
+    <rect x="0" y="0" width="360" height="660" rx="32" fill="#F5F2EB" stroke="#DFD9CC" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect x="20" y="22" width="38" height="38" rx="12" fill="#5A6B5C"/>
+    <text x="39" y="47" font-family="Inter, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#FFFFFF">🎋</text>
+    <text x="70" y="37" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#7D7970">Концепт #4 • Muji Wooden Shelf</text>
+    <text x="70" y="54" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800" fill="#262523">Japandi Wood &amp; Ceramic</text>
+    <line x1="0" y1="74" x2="360" y2="74" stroke="#DFD9CC" stroke-width="1"/>
+
+    <!-- Forecast Banner -->
+    <rect x="18" y="88" width="324" height="62" rx="16" fill="#EAE5DA" stroke="#DFD9CC" stroke-width="1"/>
+    <text x="34" y="114" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#5A6B5C">✨ Гармония и порядок на полке</text>
+    <text x="34" y="134" font-family="Inter, Arial, sans-serif" font-size="12" fill="#262523">Бамбуковая полка • 12 позиций в доме</text>
+
+    <!-- Room Pills -->
+    <rect x="18" y="164" width="64" height="28" rx="10" fill="#5A6B5C"/>
+    <text x="50" y="182" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#FFFFFF">Все</text>
+    <rect x="90" y="164" width="96" height="28" rx="10" fill="#FCFBF9" stroke="#DFD9CC" stroke-width="1"/>
+    <text x="138" y="182" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#7D7970">🛁 Ванная</text>
+    <rect x="194" y="164" width="92" height="28" rx="10" fill="#FCFBF9" stroke="#DFD9CC" stroke-width="1"/>
+    <text x="240" y="182" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#7D7970">🍽️ Кухня</text>
+
+    <!-- Card 1: CeraVe + Wooden Shelf Ledge -->
+    <rect x="18" y="206" width="324" height="128" rx="16" fill="#FCFBF9" stroke="#DFD9CC" stroke-width="1.5"/>
+    <rect x="24" y="330" width="312" height="5" rx="2.5" fill="#C8AD8D"/>
+    <rect x="34" y="222" width="40" height="40" rx="10" fill="#F4EBE1"/>
+    <text x="54" y="248" font-family="Inter, Arial, sans-serif" font-size="18" text-anchor="middle">🧴</text>
+    <text x="86" y="237" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#7D7970">🛁 Ванная • 473 мл</text>
+    <text x="86" y="256" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#262523">CeraVe Увлажняющий гель</text>
+    <text x="34" y="284" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#B87D4B">🍂 Хватит ещё на ~4 дня</text>
+    <text x="326" y="284" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="end" fill="#262523">14%</text>
+    <rect x="34" y="292" width="292" height="8" rx="4" fill="#EAE5DA"/>
+    <rect x="34" y="292" width="48" height="8" rx="4" fill="#B87D4B"/>
+    <text x="34" y="320" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#7D7970">🏷️ Лучшая цена в Hebe: 42,99 zł</text>
+
+    <!-- Card 2: Finish + Wooden Shelf Ledge -->
+    <rect x="18" y="346" width="324" height="128" rx="16" fill="#FCFBF9" stroke="#DFD9CC" stroke-width="1.5"/>
+    <rect x="24" y="470" width="312" height="5" rx="2.5" fill="#C8AD8D"/>
+    <rect x="34" y="362" width="40" height="40" rx="10" fill="#EAE5DA"/>
+    <text x="54" y="388" font-family="Inter, Arial, sans-serif" font-size="18" text-anchor="middle">✨</text>
+    <text x="86" y="377" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#7D7970">🍽️ Кухня • 60 шт</text>
+    <text x="86" y="396" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#262523">Finish Ultimate Таблетки</text>
+    <text x="34" y="424" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#7D7970">🎋 Запас на ~18 дней</text>
+    <text x="326" y="424" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="end" fill="#262523">45%</text>
+    <rect x="34" y="432" width="292" height="8" rx="4" fill="#EAE5DA"/>
+    <rect x="34" y="432" width="132" height="8" rx="4" fill="#5A6B5C"/>
+    <text x="34" y="460" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#7D7970">🏷️ Лучшая цена на Allegro: 49,90 zł</text>
+
+    <!-- Card 3: Eco Laundry + Wooden Shelf Ledge -->
+    <rect x="18" y="486" width="324" height="100" rx="16" fill="#FCFBF9" stroke="#DFD9CC" stroke-width="1.5"/>
+    <rect x="24" y="582" width="312" height="5" rx="2.5" fill="#C8AD8D"/>
+    <rect x="34" y="502" width="40" height="40" rx="10" fill="#EAE5DA"/>
+    <text x="54" y="528" font-family="Inter, Arial, sans-serif" font-size="18" text-anchor="middle">🌿</text>
+    <text x="86" y="517" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#7D7970">🧺 Прачечная • 1500 мл</text>
+    <text x="86" y="536" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#262523">Эко-гель Лаванда</text>
+    <rect x="34" y="558" width="292" height="8" rx="4" fill="#EAE5DA"/>
+    <rect x="34" y="558" width="228" height="8" rx="4" fill="#5A6B5C"/>
+
+    <!-- Bottom Nav -->
+    <rect x="0" y="602" width="360" height="58" fill="#FCFBF9"/>
+    <line x1="0" y1="602" x2="360" y2="602" stroke="#DFD9CC" stroke-width="1"/>
+    <text x="64" y="635" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#5A6B5C">🧴 Полочка</text>
+    <rect x="130" y="614" width="100" height="34" rx="12" fill="#5A6B5C"/>
+    <text x="180" y="635" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#FFFFFF">+ Добавить</text>
+    <text x="296" y="635" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#7D7970">🛍️ Цены PL</text>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- ARTBOARD 5: COZY EVENING CANDLELIGHT                      -->
+  <!-- ========================================================= -->
+  <g id="05_Cozy_Evening_Candle" transform="translate(1640, 64)">
+    <rect x="0" y="0" width="360" height="660" rx="32" fill="#231F1D" stroke="#423934" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect x="20" y="22" width="38" height="38" rx="12" fill="#E8A864"/>
+    <text x="39" y="47" font-family="Inter, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#231F1D">🕯️</text>
+    <text x="70" y="37" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#A89B91">Концепт #5 • Warm Night Mode</text>
+    <text x="70" y="54" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800" fill="#F5EBE1">Cozy Evening Candle</text>
+    <line x1="0" y1="74" x2="360" y2="74" stroke="#423934" stroke-width="1"/>
+
+    <!-- Forecast Banner -->
+    <rect x="18" y="88" width="324" height="62" rx="20" fill="#3A322E" stroke="#423934" stroke-width="1"/>
+    <text x="34" y="114" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#E8A864">✨ Уютный вечер без синего света</text>
+    <text x="34" y="134" font-family="Inter, Arial, sans-serif" font-size="12" fill="#F5EBE1">На полочке 12 средств • 2 скоро закончатся</text>
+
+    <!-- Room Pills -->
+    <rect x="18" y="164" width="64" height="28" rx="14" fill="#E8A864"/>
+    <text x="50" y="182" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#231F1D">Все</text>
+    <rect x="90" y="164" width="96" height="28" rx="14" fill="#2E2825" stroke="#423934" stroke-width="1"/>
+    <text x="138" y="182" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#A89B91">🛁 Ванная</text>
+    <rect x="194" y="164" width="92" height="28" rx="14" fill="#2E2825" stroke="#423934" stroke-width="1"/>
+    <text x="240" y="182" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#A89B91">🍽️ Кухня</text>
+
+    <!-- Card 1: CeraVe -->
+    <rect x="18" y="206" width="324" height="128" rx="20" fill="#2E2825" stroke="#423934" stroke-width="1.5"/>
+    <rect x="34" y="222" width="40" height="40" rx="12" fill="#422C26"/>
+    <text x="54" y="248" font-family="Inter, Arial, sans-serif" font-size="18" text-anchor="middle">🧴</text>
+    <text x="86" y="237" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#A89B91">🛁 Ванная • 473 мл</text>
+    <text x="86" y="256" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#F5EBE1">CeraVe Увлажняющий гель</text>
+    <text x="34" y="284" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#E07A5F">🍂 Хватит ещё на ~4 дня</text>
+    <text x="326" y="284" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="end" fill="#F5EBE1">14%</text>
+    <rect x="34" y="292" width="292" height="8" rx="4" fill="#3A322E"/>
+    <rect x="34" y="292" width="48" height="8" rx="4" fill="#E07A5F"/>
+    <text x="34" y="320" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#A89B91">🏷️ Лучшая цена в Hebe: 42,99 zł</text>
+
+    <!-- Card 2: Finish -->
+    <rect x="18" y="346" width="324" height="128" rx="20" fill="#2E2825" stroke="#423934" stroke-width="1.5"/>
+    <rect x="34" y="362" width="40" height="40" rx="12" fill="#3A322E"/>
+    <text x="54" y="388" font-family="Inter, Arial, sans-serif" font-size="18" text-anchor="middle">✨</text>
+    <text x="86" y="377" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#A89B91">🍽️ Кухня • 60 шт</text>
+    <text x="86" y="396" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#F5EBE1">Finish Ultimate Таблетки</text>
+    <text x="34" y="424" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#A89B91">🕯️ Запас на ~18 дней</text>
+    <text x="326" y="424" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="end" fill="#F5EBE1">45%</text>
+    <rect x="34" y="432" width="292" height="8" rx="4" fill="#3A322E"/>
+    <rect x="34" y="432" width="132" height="8" rx="4" fill="#E8A864"/>
+    <text x="34" y="460" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#A89B91">🏷️ Лучшая цена на Allegro: 49,90 zł</text>
+
+    <!-- Card 3: Eco Laundry -->
+    <rect x="18" y="486" width="324" height="100" rx="20" fill="#2E2825" stroke="#423934" stroke-width="1.5"/>
+    <rect x="34" y="502" width="40" height="40" rx="12" fill="#3A322E"/>
+    <text x="54" y="528" font-family="Inter, Arial, sans-serif" font-size="18" text-anchor="middle">🌿</text>
+    <text x="86" y="517" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#A89B91">🧺 Прачечная • 1500 мл</text>
+    <text x="86" y="536" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#F5EBE1">Эко-гель Лаванда</text>
+    <rect x="34" y="558" width="292" height="8" rx="4" fill="#3A322E"/>
+    <rect x="34" y="558" width="228" height="8" rx="4" fill="#E8A864"/>
+
+    <!-- Bottom Nav -->
+    <rect x="0" y="602" width="360" height="58" fill="#2E2825"/>
+    <line x1="0" y1="602" x2="360" y2="602" stroke="#423934" stroke-width="1"/>
+    <text x="64" y="635" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#E8A864">🧴 Полочка</text>
+    <rect x="130" y="614" width="100" height="34" rx="17" fill="#E8A864"/>
+    <text x="180" y="635" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#231F1D">+ Добавить</text>
+    <text x="296" y="635" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#A89B91">🛍️ Цены PL</text>
+  </g>
+</svg>
