@@ -1,4 +1,4 @@
-// Domain models for HomeReminder (Cosmetics, Chemistry, Toilet Paper & Kitchen Towels + PL Stores)
+// Domain models for HomeReminder v0.3.0 (Custom Stores, Favorites, Essentials/Always Buy)
 
 enum ProductCategory {
   cosmetics('cosmetics', 'Косметика', 'Kosmetyki'),
@@ -42,6 +42,64 @@ enum VolumeUnit {
       orElse: () => VolumeUnit.ml,
     );
   }
+}
+
+class CustomStoreConfig {
+  const CustomStoreConfig({
+    required this.name,
+    required this.searchUrlTemplate,
+    this.isBuiltIn = false,
+  });
+
+  final String name;
+  final String searchUrlTemplate;
+  final bool isBuiltIn;
+
+  String buildSearchUrl(String encodedQuery) {
+    final tpl = searchUrlTemplate.trim();
+    if (tpl.contains('{query}')) {
+      return tpl.replaceAll('{query}', encodedQuery);
+    }
+    // Smart auto-detection for common domains if user only pasted domain URL
+    final lower = tpl.toLowerCase();
+    var base = tpl.startsWith('http') ? tpl : 'https://$tpl';
+    if (base.endsWith('/')) {
+      base = base.substring(0, base.length - 1);
+    }
+    if (lower.contains('notino.pl')) {
+      return '$base/search.asp?exps=$encodedQuery';
+    }
+    if (lower.contains('ceneo.pl')) {
+      return '$base/;szukaj-$encodedQuery';
+    }
+    if (lower.contains('superpharm.pl')) {
+      return '$base/catalogsearch/result/?q=$encodedQuery';
+    }
+    if (lower.contains('douglas.pl')) {
+      return '$base/pl/search?q=$encodedQuery';
+    }
+    if (lower.contains('makeup.pl')) {
+      return '$base/search/?q=$encodedQuery';
+    }
+    if (base.contains('?')) {
+      return '$base$encodedQuery';
+    }
+    return '$base/search?q=$encodedQuery';
+  }
+
+  factory CustomStoreConfig.fromJson(Map<String, dynamic> json) {
+    return CustomStoreConfig(
+      name: json['name'] as String,
+      searchUrlTemplate: json['search_url_template'] as String,
+      isBuiltIn: json['is_built_in'] as bool? ?? false,
+    );
+  }
+
+  Map<String, dynamic> toJson() => {
+        'name': name,
+        'search_url_template': searchUrlTemplate,
+        'is_built_in': isBuiltIn,
+      };
 }
 
 class StoreOffer {
@@ -137,6 +195,9 @@ class ProductItem {
     this.brand,
     this.preferredStore,
     this.lastPricePln,
+    this.customProductUrl,
+    this.isFavorite = false,
+    this.isEssential = false,
   });
 
   final int id;
@@ -155,10 +216,51 @@ class ProductItem {
   final String aiExplanation;
   final String? preferredStore;
   final double? lastPricePln;
+  final String? customProductUrl;
+  final bool isFavorite;
+  final bool isEssential;
   final int daysRemaining;
   final double remainingPercentage;
   final bool needsRestockSoon;
   final List<StoreOffer> storeLinks;
+
+  ProductItem copyWith({
+    bool? isFavorite,
+    bool? isEssential,
+    List<StoreOffer>? storeLinks,
+    DateTime? purchaseDate,
+    DateTime? expectedEndDate,
+    DateTime? reminderDate,
+    int? daysRemaining,
+    double? remainingPercentage,
+    bool? needsRestockSoon,
+  }) {
+    return ProductItem(
+      id: id,
+      name: name,
+      brand: brand,
+      category: category,
+      totalVolume: totalVolume,
+      unit: unit,
+      purchaseDate: purchaseDate ?? this.purchaseDate,
+      usageDescription: usageDescription,
+      dailyUsageAmount: dailyUsageAmount,
+      estimatedTotalDays: estimatedTotalDays,
+      expectedEndDate: expectedEndDate ?? this.expectedEndDate,
+      reminderDate: reminderDate ?? this.reminderDate,
+      reminderDaysBefore: reminderDaysBefore,
+      aiExplanation: aiExplanation,
+      preferredStore: preferredStore,
+      lastPricePln: lastPricePln,
+      customProductUrl: customProductUrl,
+      isFavorite: isFavorite ?? this.isFavorite,
+      isEssential: isEssential ?? this.isEssential,
+      daysRemaining: daysRemaining ?? this.daysRemaining,
+      remainingPercentage: remainingPercentage ?? this.remainingPercentage,
+      needsRestockSoon: needsRestockSoon ?? this.needsRestockSoon,
+      storeLinks: storeLinks ?? this.storeLinks,
+    );
+  }
 
   factory ProductItem.fromJson(Map<String, dynamic> json) {
     final rawLinks = json['store_links'] as List<dynamic>? ?? const [];
@@ -179,6 +281,9 @@ class ProductItem {
       aiExplanation: json['ai_explanation'] as String? ?? '',
       preferredStore: json['preferred_store'] as String?,
       lastPricePln: (json['last_price_pln'] as num?)?.toDouble(),
+      customProductUrl: json['custom_product_url'] as String?,
+      isFavorite: json['is_favorite'] as bool? ?? false,
+      isEssential: json['is_essential'] as bool? ?? false,
       daysRemaining: json['days_remaining'] as int? ?? 0,
       remainingPercentage: (json['remaining_percentage'] as num?)?.toDouble() ?? 0.0,
       needsRestockSoon: json['needs_restock_soon'] as bool? ?? false,

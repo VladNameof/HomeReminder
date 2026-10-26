@@ -179,44 +179,49 @@ class HomeReminderApiService {
     return buildPolishStoreLinksLocal(query);
   }
 
-  /// Builds direct search URLs for Rossmann, Hebe, Allegro, and Ekodrogeria that open the exact search results page.
+  static const List<CustomStoreConfig> builtInPolishStores = [
+    CustomStoreConfig(
+      name: 'Rossmann',
+      searchUrlTemplate: 'https://www.rossmann.pl/szukaj?Search={query}',
+      isBuiltIn: true,
+    ),
+    CustomStoreConfig(
+      name: 'Hebe',
+      searchUrlTemplate: 'https://www.hebe.pl/search?q={query}',
+      isBuiltIn: true,
+    ),
+    CustomStoreConfig(
+      name: 'Allegro',
+      searchUrlTemplate: 'https://allegro.pl/listing?string={query}',
+      isBuiltIn: true,
+    ),
+    CustomStoreConfig(
+      name: 'Ekodrogeria',
+      searchUrlTemplate: 'https://ekodrogeria.pl/s?q={query}',
+      isBuiltIn: true,
+    ),
+  ];
+
+  /// Builds direct search URLs for built-in + user-added online stores.
   static List<StoreOffer> buildPolishStoreLinksLocal(
     String query, {
     String? preferredStore,
     double? lastPrice,
+    List<CustomStoreConfig> customStores = const [],
   }) {
     final normalized = normalizePolishQuery(query);
     final encoded = Uri.encodeQueryComponent(normalized);
-    return [
-      StoreOffer(
-        store: 'Rossmann',
+    final allStores = [...builtInPolishStores, ...customStores];
+
+    return allStores.map((cfg) {
+      return StoreOffer(
+        store: cfg.name,
         productTitle: normalized,
-        pricePln: preferredStore == 'Rossmann' ? lastPrice : null,
-        searchUrl: 'https://www.rossmann.pl/szukaj?Search=$encoded',
-        note: 'Szukaj "$normalized" w Rossmann.pl',
-      ),
-      StoreOffer(
-        store: 'Hebe',
-        productTitle: normalized,
-        pricePln: preferredStore == 'Hebe' ? lastPrice : null,
-        searchUrl: 'https://www.hebe.pl/search?q=$encoded',
-        note: 'Szukaj "$normalized" w Hebe.pl',
-      ),
-      StoreOffer(
-        store: 'Allegro',
-        productTitle: normalized,
-        pricePln: preferredStore == 'Allegro' ? lastPrice : null,
-        searchUrl: 'https://allegro.pl/listing?string=$encoded',
-        note: 'Szukaj "$normalized" na Allegro.pl',
-      ),
-      StoreOffer(
-        store: 'Ekodrogeria',
-        productTitle: normalized,
-        pricePln: preferredStore == 'Ekodrogeria' ? lastPrice : null,
-        searchUrl: 'https://ekodrogeria.pl/s?q=$encoded',
-        note: 'Szukaj "$normalized" w Ekodrogeria.pl',
-      ),
-    ];
+        pricePln: preferredStore == cfg.name ? lastPrice : null,
+        searchUrl: cfg.buildSearchUrl(encoded),
+        note: 'Szukaj "$normalized" w ${cfg.name}',
+      );
+    }).toList();
   }
 
   static UsageEstimate calculateLocalOracle({

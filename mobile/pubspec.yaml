@@ -1,7 +1,7 @@
 name: homereminder_mobile
 description: "HomeReminder — AI Cosmetics & Household Chemistry Tracker with Polish Stores (Rossmann, Hebe, Allegro, Ekodrogeria) & Push Reminders."
 publish_to: "none"
-version: 0.2.0+2
+version: 0.3.0+3
 
 environment:
   sdk: ">=3.4.0 <4.0.0"
